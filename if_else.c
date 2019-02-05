@@ -48,5 +48,13 @@ int main()
     printf("%d \n", max(1, 4));
     printf("\n");
     printf("%d \n", superMax(7, 3, 5));
+
+    // additional ways to do if statements.
+    if(3 > 2 || 2 > 5){
+        // Will check if either 3 > 2 OR 2 > 5
+        printf("True.")
+    } else {
+        printf("False.")
+    }
     return 0;
 }

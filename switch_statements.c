@@ -11,6 +11,8 @@ int main()
     // Having the user input the grade (To test the case)
     printf("Please input your grade: ");
     scanf(" %c", &grade);
+    // Our switch statement, which will check the variable grade against 6 cases.
+    // and will execute code depending on what case it comes out as.
     switch(grade){
     case 'A' :
         printf("You did great!");

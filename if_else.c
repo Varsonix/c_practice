@@ -52,9 +52,21 @@ int main()
     // additional ways to do if statements.
     if(3 > 2 || 2 > 5){
         // Will check if either 3 > 2 OR 2 > 5
-        printf("True.")
+        printf("True.");
     } else {
-        printf("False.")
+        printf("False.");
+    }
+
+    if(3 <= 2 && 5 >= 5){
+        printf("True.");
+    } else {
+        printf("False.");
+    }
+
+    if (!(3 > 2)){
+        printf("True.");
+    } else {
+        printf("False.");
     }
     return 0;
 }
